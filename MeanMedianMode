@@ -5,25 +5,6 @@
 #include <algorithm>
 using namespace std;
 
-//this program, as well as the others within this project folder
-//is based on a statistical tutorial on Hackerrank.
-//this program is based on a challenge to find the mean, median, and mode of a set of input numbers
-
-//Input format:
-//it takes in a number N which is the number of elements in the set
-//and the next line following that is N space-separated characters
-//I represent the number N of inputs as a parameter sizeI which is passed to the functions in their definitons
-
-//Constraints:
-//There are 10 <= N <= 2500 elements in the set (my code contains error-checking)
-//Each array element x in X[N] is 0 < x <= 100,000
-
-//Output format:
-//first line: mean printed to the accuracy of one decimal place
-//second line: median printed to the accuracy of one decimal place
-//third line: mode; if there is more than one mode the smaller one is included
-
-
 //this is a data structure which contains a variable representing a particular double, 
 //as well as the number of repetitions of that variable
 
