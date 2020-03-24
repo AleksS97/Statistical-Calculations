@@ -27,4 +27,5 @@ int main() {
     double prob = cdf(tickets, students, sampleMean, stddev);
     cout << fixed << setprecision(4) << prob << endl;
     return 0;
+
 }
